@@ -16,7 +16,7 @@ function App() {
     }
   }, [config, sigmaData]);
 
-  return <img src={img} />;
+  return <img alt="Sigma plugin" src={img} />;
 }
 
 export default App;

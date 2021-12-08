@@ -16,7 +16,7 @@ function App() {
     }
   }, [config, sigmaData]);
 
-  return <img alt="To see an image, configure the plugin to have one source element and one dimension. The first row value will be used." src={img} />;
+  return <img alt="To see an img, configure the plugin to have one source element and one dimension. The first row value will be used." src={img} />;
 }
 
 export default App;

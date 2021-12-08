@@ -12,7 +12,7 @@ function App() {
   const img = useMemo(() => {
     const dimensions = config.dimension;
     if (sigmaData?.[dimensions]) {
-      return "https://dummyimage.com/100x50&text=" + sigmaData[dimensions][0];
+      return sigmaData[dimensions][0];
     }
   }, [config, sigmaData]);
 
